@@ -1,0 +1,55 @@
+product_id,product_name,warehouse,quantity,price,category
+P1001,USB-C Kabel 1m,Esbjerg,120,49.95,Accessories
+P1001,USB kabel 1m – blå,Kolding,80,49.95,Accessories
+P1002,Wireless Mäuschen,Esbjerg,45,149.00,Elektronik
+P1003,Bluetooth Tastatur Århus,Kolding,32,299.00,Elektronik
+P1004,HDMI Kabel 2m,Esbjerg,90,79.95,Accessories
+P1004;HDMI Kabel 2m – Größe M;Kolding;55;79,95;Accessories
+P1005,Laptop Ständer,Kolding,24,249.50,Office
+P1006,Skrivebordslampe LED,Esbjerg,38,199.95,Office
+P1007,Notesbog A5 – grøn,Kolding,200,29.95,Stationary
+P1008,Kuglepen Pakke – rød,Esbjerg,175,39.95,Stationery
+P1008,Kuglepen Pakke – rød,Kolding,140,39.95,Stationery
+P1009,Vandflaske 750ml,Esbjerg,65,89.00,Küche
+P1010,Kaffekrus Keramik,Kolding,110,59.95,Küche
+P1011,Telefonoplader 20W,Esbjerg,70,129.00,Elektronik
+P1011,Telefonoplader 20W,Kolding,50,129.00,Elektronik
+P1012;Monitor 24 Zoll – weiß;Esbjerg;18;1199,00;Elektronik
+P1013,Kontorstol Basic – groß,Kolding,,899.00,Möbel
+P1014,Skrivebordsordner,Esbjerg,85,69.95,Office
+P1015,Klæbenoter Pakke,Kolding,160,24.95,Stationery
+P1016,Ethernet Kabel 5m Café,Esbjerg,100,89.95,Accessories
+P1016,Ethernet Kabel 5m Café,Kolding,75,89.95,Accessories
+P1017,USB Flash Drive 64GB – sølv,Esbjerg,54,99.95,Elektronik
+P1018,Ekstern Harddisk 1TB – Über,Kolding,22,549.00,Elektronik
+P1019,Printerpapir A4,Esbjerg,300,,Stationery
+P1019,Printerpapir A4,Kolding,260,54.95,Stationery
+P1020,Rengøringsspray,Esbjerg,48,44.95,Cleaning
+P1021,Mikrofiberklude Pakke,Kolding,95,34.95,Cleanng
+P1022,Rygsæk 20L,Esbjerg,30,349.00,Bags
+P1023,Laptop Sleeve 15 Zoll,Kolding,42,179.95,Bags
+P1024,Trådløse Hovedtelefoner,Esbjerg,26,699.00,Elektronik
+P1024,Trådløs Hovedtelefon,Kolding,17,699.00,Elektronik
+P1025,Webcam Full HD,Kolding,21,399.00,Elektronik
+P1026,Whiteboard Marker Sæt,Esbjerg,115,49.95,Stationery
+P1027;Forlængerledning 3m;Kolding;58;119.95;Accessories
+P1027,Forlængerledning 3m,Esbjerg,64,119.95,Accessories
+P1028,Pakketape Rulle,Esbjerg,130,"119,95",Packaging
+P1029,Papkasse Medium,Kolding,210,14.95,Packaging
+P1030,Sikkerhedshandsker Par,Esbjerg,88,39.00,Safety
+P1031,Førstehjælpskasse,Kolding,12,249.00,Safety
+P1032,Stregkodescanner,Esbjerg,9,799.00,Warehouse
+P1032;Stregkodescanner;Kolding;6;799.00;Warehose
+P1033,Labelprinter – München,Kolding,7,1299.00,Warehouse
+P1034,Thermo Etiketter München,Esbjerg,150,89.00,Warehouse
+P1035,Opbevaringskasse 20L,Kolding,74,69.00,Warehouse
+P1035,Opbevaringskasse 20L,Esbjerg,96,69.00,Warehouse
+P1036,Tabletholder – Größe S,Esbjerg,28,159.95,Accessories
+P1037,Bærbar Højttaler,Esbjerg,19,449.00,Elektronik
+P1038,Dokumentmappe Pakke,Esbjerg,125,34.95,Office
+P1039,Skrivebordsmåtte Stor,Kolding,37,129.95,
+P1040,Genanvendelig Indkøbspose,Esbjerg,180,19.95,Bags
+P1041,Æbleholder Øko Årlig,Kolding,33,59.95,Køkken
+P1042;Æbleholder Øko Årlig;Esbjerg;31;59,95;Køkken
+P1043,Fußmatte Bürogröße,Kolding,44,89.95,Büro
+P1044,Fußmatte Bürogröße,Esbjerg,41,"89,95",Büro

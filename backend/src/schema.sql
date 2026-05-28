@@ -1,0 +1,33 @@
+CREATE TABLE IF NOT EXISTS warehouses (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  city TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS products (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE,
+  external_product_id TEXT,
+  price NUMERIC(10,2) NOT NULL DEFAULT 0,
+  category TEXT,
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS tags (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS product_tags (
+  product_id INTEGER NOT NULL REFERENCES products(id) ON DELETE CASCADE,
+  tag_id INTEGER NOT NULL REFERENCES tags(id) ON DELETE CASCADE,
+  PRIMARY KEY (product_id, tag_id)
+);
+
+CREATE TABLE IF NOT EXISTS inventory (
+  product_id INTEGER NOT NULL REFERENCES products(id) ON DELETE CASCADE,
+  warehouse_id INTEGER NOT NULL REFERENCES warehouses(id) ON DELETE CASCADE,
+  quantity INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (product_id, warehouse_id)
+);
